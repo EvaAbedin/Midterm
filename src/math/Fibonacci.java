@@ -7,6 +7,7 @@ public class Fibonacci {
          /*
           Write 40 Fibonacci numbers with java.
          */
+
         int prev = 0;
         int next = 1;
 
