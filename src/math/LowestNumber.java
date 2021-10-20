@@ -1,7 +1,7 @@
 package math;
 
 import databases.ConnectDB;
-
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,8 +15,19 @@ public class LowestNumber {
 
 
 		//implementation here...
+		int a[] = {121, 32, 44, 60, 96, 45, 21, 57, 89};
 
+
+		System.out.println("Lowest from array a: " + getSmallest(a,9));
 
 	}
 
+	public static int getSmallest(int[] a, int total){
+		Arrays.sort(a);
+		return a[0];
+	}
 }
+
+
+
+
