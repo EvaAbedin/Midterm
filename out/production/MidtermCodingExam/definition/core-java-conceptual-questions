@@ -1,67 +1,107 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.Programming languages are the tools that we use to write instructions for computers to follow.
 
 What jdk contains or composed of and define each components?
 A.
 
+
+
+
+
+
 What is IDE?
-A.
+A.IDE(integrated development environment) is a software for buildings applications that
+combines combines developer tools into a single GUI(graphical users interface).
 
 What are the IDEs available in the market to support java?
-A.
+A.Eclipse, MyEclipse, intellij, BlueJ, NetBeans, JDeveloper.
 
 Explain the entire java life cycle.
 A.
 
+
+
+
+
+
 what is class?
-A.
+A.Class is a blueprint for creating objects.
 
 What is object?
-A.
+A. A java object is a member of a java class, also called an instance.
 
 What is the entry point of an application?
-A.
+A.Main method is the entry point of an application.
 
 Why main is static?
-A.
+A.Main method is static so that JVM can invoke it without instantiating the class.
 
 Which class is the superclass of all classes?
-A.
+A.The object class is the superclass of all classes.
 
 What is difference between path and classpath variables?
-A.
+A.Path variable is used to set the path for all java software tools and
+classpath variable is used to set the path for java class.
 
 What is the difference between an Interface and Abstract class?
-A.
+A.Interface support multiple inheritance but abstract doesn't support multiple inheritance.
+And interface has only static and final variables but abstract has static, non-static,
+and final, non-final variables.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-A.
+A.No you can't make an object from an Interface and Abstract class.
+But you can instantiate an anonymous class that implements/extends the interface or
+abstract class without defining a class object.
 
 what is Access Specifier?
-A.
+A.An access specifier is a defining code element that can determine which elements of a program
+are allowed to access a specific variable or other piece of data.
+
 
 What is OOP ? Define each feature of java OOP.
-A.
+A.OOP(Object-oriented programming)is a computer programming model that
+organizes software design around data, or objects, rather than functions and logic.
+They are: abstraction, encapsulation, inheritance, and polymorphism.
+Abstraction: is a process of exposing all the necessary details and hiding the rest.
+Encapsulation: is a mechanism of wrapping the data (variables) and code acting on the data.
+Inheritance: is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+Polymorphism:  is the ability of an object to take many forms.
 
 What is Java Package and which package is imported by default?
-A.
+A.A java package is a group of similar types of classes, interfaces and sub-packages.
+The java. lang package is always imported by default.
+
 
 What is API? Name list of API that you have used so far.
-A.
+A.API(Application Programming Interface) is a software intermediary that
+allows two applications to talk to each other.
+
 
 Does java support multiple inheritance, explain why or why not?
-A.
+A.Java doesn't support multiple inheritance because every class is a child of Object class.
 
 What is method overloading and when it happens?
-A.
+A.Method Overloading is a feature that allows a class to have more than one method having the same name,
+if their argument lists are different.
+Overloading happens when two or more methods in one class have the same method name but different parameters.
 
 Explain exceptions in java and how to handle it.
 A.
 
+
+
+
+
+
 What is static keyword in java? How it has been used in variables and methods ?
-A.
+A.The static keyword in Java is used for memory management mainly.
+
+
+
+
+
 
 What is final and how it has been used variables and methods?
 A.
@@ -103,85 +143,119 @@ What is the difference between JVM and JRE?
 A.
 
 What is compile time and run time?
-A.
+A.Compile-time is the time at which the source code is converted into an executable code
+while the run time is the time at which the executable code is started running.
 
 What is heap?
-A.
+A. The heap is created when the JVM starts up and may increase or decrease in size while the application runs.
 
 How java manage it's memory?
-A.
+A.Java does memory management automatically.
 
 What is the difference between String, StringBuffer and StringBuilder?
 A.
 
+
+
+
+
+
+
+
+
 What is Singleton class?
-A.
+A.Singleton is a design pattern that ensures that a class can only have one object.
 
 What is Serialization and Deserialization?
-A.
+A.Serialization is a mechanism of converting the state of an object into a byte stream.
+Deserialization is the reverse process where the byte stream is used to recreate the actual Java object in memory
 
 when to use transient variable in java?
-A.
+A.The transient modifier can be used where there are data members derived from the other data members within the same instance of the class.
 
 Difference between while and do..while loop?
-A.
+A.While loop check condition before iteration of the loop. On the other hand,
+the do-while loop verifies the condition after the execution of the statements inside the loop.
 
 What is Enum?
-A.
+A.An enum is a special "class" that represents a group of constants.
 
 What is Iterator?
-A.
+A.An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
 
 Which one will take more memory, an int or Integer?
 A.
 
+
+
+
+
+
+
+
 Why is String Immutable in Java?
-A.
+A.The String is immutable in Java because of the security, synchronization and concurrency, caching, and class loading.
 
 What is constructor chaining in Java?
-A.
+A.Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
 
 The difference between Serial and Parallel Garbage Collector?
-A.
+A.A serial collector is a default copying collector
+which uses only one GC thread for the GC operation,
+while a parallel collector uses multiple GC threads for the GC operation.
 
 What is JIT stands for?
-A.
+A.Just-In-Time (JIT).
 
 Explain Java Heap space and Garbage collection?
-A.
+A.The Java heap is the area of memory used to store objects instantiated by applications running on the JVM.
+Java Garbage Collection is the process by which Java programs perform automatic memory management.
 
 Can you guarantee the garbage collection process?
-A.
+A.No, Garbage collection does not guarantee that a program will not run out of memory.
 
 What is the difference between stack and heap in Java?
-A.
+A.Java Heap Space is used throughout the application, but Stack is only used for the method — or methods — currently running.
 
 What is reflection in java and why is it useful?
-A.
+A.Reflection in Java is the ability to examine and/or modify the properties or behavior of an object at run-time.
+It is useful because it allows an executing Java program to examine or "introspect" upon itself,
+and manipulate internal properties of the program.
 
 what is multithreading in java?
-A.
+A. Multithreading is a Java feature that allows concurrent execution of two or more parts of a program
+for maximum utilization of CPU.
 
 What is the use of synchronization in Java?
-A.
+A.Synchronization in java is the capability to control the access of multiple threads to any shared resource.
 
 What is Framework?
-A.
+A.Java frameworks are specific to the Java programming language.
+ It's a Java platform for developing software applications and Java programs.
 
 What are the testing Framework available in java?
-A.
+A.They are:
+1. Selenium
+2. Serenity
+3. JUnit
+4. TestingNG
+5. Cucumber
+6. JBehave
+7. Mockito
 
 Difference between jUnit and testNG?
-A.
+A.JUnit is a unit testing framework for Java programming language.
+TestNG is built over JUnit and NUnit and provides more features for testing an application.
 
 What are the dependencies for this project?
-A.
+A.A relationships between products or tasks.
 
 what is dependency injection in java?
-A.
+A.Dependency injection(DI) is the concept in which objects get other required objects from outside.
 
 What is static binding and dynamic binding?
-A.
+A.Static binding uses Type information for binding
+while Dynamic binding uses Objects to resolve binding.
 
 
 
