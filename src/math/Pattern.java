@@ -17,6 +17,33 @@ public class Pattern {
 
 		//implementation here...
 
+		for (int i = 100; i >= 32;){
+			if (i >= 90){
+				System.out.print(i + ", ");
+				i--;
+			} else if (i > 70){
+				i--;
+				System.out.print(i + ", ");
+				if (i > 70) i--;
+			} else if (i > 40){
+				i--;
+				i--;
+				i--;
+				System.out.print(i + ", ");
+			} else if ( i > 32 ) {
+				i--;
+				i--;
+				i--;
+				i--;
+				System.out.print(i + ", ");
+			} else {
+				System.out.print("...");
+				break;
+			}
+
+		}
+
+
 
 	}
 }
